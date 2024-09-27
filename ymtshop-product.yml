@@ -1,7 +1,5 @@
 
 spring:
-  application:
-    name: ymtshop-product
   data:
     mongodb:
       uri: mongodb://localhost:27017/ymtshop
