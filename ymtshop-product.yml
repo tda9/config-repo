@@ -4,7 +4,9 @@ spring:
     mongodb:
       uri: mongodb://localhost:27017/ecom
 
-test: 12345
+server:
+  port: 8081
+#test: 12345
 
 #eureka:
 #  client:
