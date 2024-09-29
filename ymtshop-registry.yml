@@ -1,7 +1,8 @@
-spring:
-  application:
-    name: ymtshop-registry
-
+#spring:
+#  application:
+#    name: ymtshop-registry
+server:
+  port: 8761
 eureka:
   client:
     register-with-eureka: false
