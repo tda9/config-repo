@@ -15,6 +15,9 @@ spring:
 axon:
   amqp:
     exchange: Ymtshop-exchange
+    transaction-mode: transactional
+  axonserver:
+    enabled: false
 ymtshop:
   amqp:
     rabbit:
@@ -24,3 +27,8 @@ ymtshop:
       vhost: /
       exchange: Ymtshop-exchange
       queue: Ymtshop-core-queue
+logging:
+  level:
+    org:
+      springframework:
+        amqp: DEBUG
