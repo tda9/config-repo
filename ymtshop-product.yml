@@ -14,8 +14,8 @@ eureka:
 
 
 axon:
-  amqp:
-    exchange: Ymtshop-exchange
+  axonserver:
+    enabled: false
 ymtshop:
   amqp:
     rabbit:
@@ -25,3 +25,4 @@ ymtshop:
       vhost: /
       exchange: Ymtshop-exchange
       queue: Ymtshop-product-queue
+      routingKey: product-module
