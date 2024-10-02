@@ -24,6 +24,7 @@ ymtshop:
       vhost: /
       exchange: Ymtshop-exchange
       queue: Ymtshop-core-queue
+      routingKey: core-module
 logging:
   level:
     org:
